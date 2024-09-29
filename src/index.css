@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;600;700;800&display=swap"); 
+@import url("https://db.onlinewebfonts.com/c/03bd7255184e8e8ad4d2a521fa920b6c?family=PolySans+Neutral");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.flex{
+    font-family: Polysans Neutral;
+    
+}
