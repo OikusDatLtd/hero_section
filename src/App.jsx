@@ -92,8 +92,8 @@ function App() {
       <nav className="absolute top-0 left-0">
         <img src={logo} alt="OikusDat Logo" className="ml-3 w-32 md:w-48" />
       </nav>
-      <div className=" absolute bottom-[190px]  lg:bottom-[160px]   flex flex-col justify-center items-center">
-        <h1 className="text-[30px] flex font-bold text-white font-['Polysans'] sm:text-[40px] md:text-[50px] lg:text-[60px]">
+      <div className=" absolute bottom-[190px]  lg:bottom-[160px]   flex flex-col justify-center items-center self-center">
+        <h1 className="text-[27px] w-[350px] md:w-fit flex font-bold text-white font-['Polysans'] sm:text-[40px] md:text-[50px] lg:text-[60px]">
           OikusDat is Coming Soon...
         </h1>
         <div className="font-['Lato'] mt-[20px] lg:mt-[40px]">
