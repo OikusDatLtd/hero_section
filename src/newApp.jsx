@@ -14,12 +14,12 @@ import playTube from "./assets/playtube.svg";
 
 function NewApp() {
   return (
-    <div className="absolute flex flex-col  w-screen h-fit md:h-[750px] justify-start inset-0 bg-[#F3FFFD] p-0 ">
+    <div className="absolute flex flex-col  h-fit md:h-[750px] justify-start inset-0 bg-[#F3FFFD] p-0 ">
       <nav className=" top-0 inset-x-0 bg-white mt-0 ml-0">
         <img src={logo} alt="OikusDat Logo" className="ml-3  md:w-48" />
       </nav>
       <div className=" flex flex-col md:flex-row-reverse items-center md:items-start justify-center">
-        <div className="md:m-[50px] md:p-10 ">
+        <div className="md:m-[50px] md:p-10 ml-3 ">
           <div className=" p-[10px] mt-[29.5px] ">
             <h1 className="  text-[48px] md:text-[70px] w-[386px] md:w-[551px] font-bold h-[116px] md:h-[168px] leading-[57.6px] md:leading-[84px] ">
               Search Less, Find More...
@@ -27,7 +27,7 @@ function NewApp() {
             <p className=" font-normal text-[#303030] font-[Lato] text-[14px] md:text-[18px] md:w-[585px] w-[393px] h-[84px] mt-[12px]  mb-0 md:mb-[16px] leading-[21.28px] md:leading-[27.3px] ">
               Discover Your Dream Home with OikusDat: Connecting House Hunters,
               Landlords, and Agents in Lagos through Verified, Hassle-Free
-              Experiences. Click below to proceed:
+              Experiences. <br /> Click below to proceed:
             </p>
           </div>
           <div className=" flex md:mt-[30px] justify-around items-center">
@@ -71,7 +71,7 @@ function NewApp() {
             alt=""
             className=" absolute md:w-[80px] md:h-[80px] top-[37px] md:top-[37px] left-[330px] md:left-[430px] "
           />
-          <div className="  w-[400px] h-[530px]  md:h-[800px] relative flex items-center justify-start p-0 ml-5">
+          <div className="  w-[400px] h-[530px]  md:h-[800px] relative flex items-center justify-start p-0 ml-12">
             <div className=" relative w-[300px] md:w-[1000px] h-[460px] md:h-[700px] object-cover ml-3 ">
               <img
                 src={bgTwo}
