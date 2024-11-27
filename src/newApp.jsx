@@ -14,11 +14,11 @@ import playTube from "./assets/playtube.svg";
 
 function NewApp() {
   return (
-    <div className="absolute flex flex-col  h-fit md:h-[750px] justify-start inset-0 bg-[#F3FFFD] p-0 ">
+    <div className="absolute flex flex-col overflow-x-hidden w-full   h-fit md:h-[750px] justify-start inset-0 bg-[#F3FFFD] p-0 ">
       <nav className=" top-0 inset-x-0 bg-white mt-0 ml-0">
         <img src={logo} alt="OikusDat Logo" className="ml-3  md:w-48" />
       </nav>
-      <div className=" flex flex-col md:flex-row-reverse items-center md:items-start justify-center">
+      <div className=" flex flex-col md:flex-row-reverse items-center md:items-start justify-center max-w-screen-sm p-2">
         <div className="md:m-[50px] md:p-10 ml-3 ">
           <div className=" p-[10px] mt-[29.5px] ">
             <h1 className="  text-[48px] md:text-[70px] w-[386px] md:w-[551px] font-bold h-[116px] md:h-[168px] leading-[57.6px] md:leading-[84px] ">
