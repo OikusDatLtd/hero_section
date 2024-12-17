@@ -1,4 +1,4 @@
-import React from "react";
+import { React } from "react";
 import logo from "./assets/logodark.svg";
 import homeIcon from "./assets/homeIcon.svg";
 import handsIcon from "./assets/handsIcon.svg";
@@ -32,18 +32,22 @@ function NewApp() {
           </div>
           <div className=" flex md:mt-[30px] justify-around items-center">
             <div className=" flex flex-col items-center ">
-              <div className=" bg-white w-[99px] h-[99px] transition-transform duration-300 cursor-pointer hover:scale-110 md:hover:scale-110 hover:ease-in-out md:size-[130px] rounded-full flex items-center justify-center shadow-fade">
-                <img src={homeIcon} alt="" srcset="" />
-              </div>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfkoIGJr4FK6MkDh2AyQngSt5V3G2fUOM1Z3g4yKK0arVKG3Q/viewform?usp=sf_link">
+                <div className=" bg-white w-[99px] h-[99px] transition-transform duration-300 cursor-pointer hover:scale-110 md:hover:scale-110 hover:ease-in-out md:size-[130px] rounded-full flex items-center justify-center shadow-fade">
+                  <img src={homeIcon} alt="" srcset="" />
+                </div>
+              </a>
               <p className=" font-[Lato] md:text-[18px] text-[15px] text-[#303030] w-[31px] h-[18px] mt-[18px] ">
                 Rent
               </p>
             </div>
             <p className=" text-[#B3B3B3] md:text-[20px]"> Or</p>
             <div className=" flex flex-col items-center">
-              <div className=" bg-white w-[99px] h-[99px] transition-transform duration-300 cursor-pointer hover:scale-110 md:hover:scale-110 hover:ease-in-out md:size-[130px] rounded-full flex items-center justify-center shadow-fade">
-                <img src={handsIcon} alt="" srcset="" />
-              </div>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdWDt1TeKPiJHlJpPJWa-bPi2u400zWfLsYKSnsADMoADB1_Q/viewform?usp=sf_link">
+                <div className=" bg-white w-[99px] h-[99px] transition-transform duration-300 cursor-pointer hover:scale-110 md:hover:scale-110 hover:ease-in-out md:size-[130px] rounded-full flex items-center justify-center shadow-fade">
+                  <img src={handsIcon} alt="" srcset="" />
+                </div>
+              </a>
               <p className=" font-[Lato] md:text-[18px] text-[15px] text-[#303030] w-[31px] h-[18px] mt-[18px] ">
                 Own
               </p>
